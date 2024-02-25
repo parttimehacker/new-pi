@@ -86,6 +86,10 @@ cat /proc/device-tree/model
 ```
 hostname -I
 ```
+* Raspberry Pi OS version
+```
+cat /etc/os-release
+```
 All done.
 ## Sync and Reboot
 - Test the basic install and firewall
