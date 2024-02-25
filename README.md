@@ -2,13 +2,11 @@
 Basic startup installation instructions for a raspberry pi
 ## Description
 
-This repository contains instructions and bash scripts I use to configure new Raspberry Pi devices as Raspbian OS
-headless servers. A special step in this repository is the setup of an Apache web server running a default Django app. I use the Raspberry Pi Image Installer to copy the latest Raspberry Foundation image to a SD card. I enable SSH and set up Wi-Fi on the SD card
-I strongly recommend creating a **NEW USER** account and delete the **PI** account.
+This repository contains instructions and bash scripts I use to configure new Raspberry Pi devices as Raspbian OS servers. I use the Raspberry Pi Image Installer to copy the latest Raspberry Foundation image to a SD card. I enable SSH and set up Wi-Fi on the SD card. I strongly recommend creating a **NEW USER** account and delete the **PI** account, which can be automatic if you use the new Imager.
 
 ## Raspberry Pi Imager v1.8.4
 
-The new Imaging app allows you to configure many important first steps like user name, host name, etc. The link to the
+The new Imaging app allows you to configure many important first steps like Wi-Fi SSID and password, user name, host name, etc. The link to the
 new imager is https://www.raspberrypi.com/software/
 
 ## Remote Access and Development Configuration
