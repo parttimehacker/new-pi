@@ -70,27 +70,35 @@ sudo ufw allow 5900
 sudo ufw enable
 sudo ufw status
 ```
-### Optional Bookkeeping Stuff
-* This is optional but a good idea to test the I2C bus for future IOT devices.
+## This is optional but a good idea to test the I2C bus for future IOT devices.
 ```
 sudo i2cdetect -y 1
+```
+* Operating information
+```
 uname -a
+```
+* Hardware information
+```
 cat /proc/device-tree/model
+```
+* Network Information
+```
 hostname -I
 ```
-### Sync and Reboot
+All done.
+## Sync and Reboot
 - Test the basic install and firewall
 ```
 sudo sync
 sudo reboot
 ```
-
-# Licence
+## Licence
 -------
 
 MIT
 
-# Authors
+## Authors
 -------
 
 `new-pi` was written by `Dave Wilson <parttimehacker@gmail.com>`_.
