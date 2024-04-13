@@ -37,7 +37,7 @@ sudo apt-get -y install i2c-tools
 ```
 - Add lint for good practice
 ```
-sudo pip3 install pylint
+sudo pip3 install pylint --break-system-packages
 ```
 - If the terminal font is too small then you can change it from the command line
 ```
